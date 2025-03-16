@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+    background:linear-gradient(45deg,#000000,#003300,#001a00,#004d00,#003300,#00cc00,#001a00,#004d00,#000000,#003300);
+    background: color #1212de;
+    color:#00009e;
+    line-height: 1.6;
+    padding:20px;
+    animation:gradientAnimation 2s ease infinite;
+   background-size: 400% 400%;
+    
+}
+.des{
+    color: white;
+    margin:10px 0;
+    padding:20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+   
+    background: #000000;
+}
+.des:hover{
+    background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
+
+}
+header{
+   
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color:#e3e4f1;
+   
+    text-align:center;
+    padding:10px;
+   transition:all 0.4s ease;
+   
+}
+
+nav a{
+    text-align: center;
+    box-sizing: border-box;
+    margin:20px;
+    max-width: 900px;
+    background-color: #0d0d0f;
+    border-radius: 10px;
+    padding: 20px;
+    color:white;
+}
+
+nav a:hover{
+    font-weight:lighter;
+    text-align:center;
+    background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
+}
+section{
+    margin:30px auto;
+    max-width:800px;
+    padding:20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius:8px;
+
+   
+}
+.project-card{
+    background-color:#1a1a1a;
+    color:#ffffff;
+    margin:10px 0;
+    padding:20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.project-card:hover{
+    transform:translateY(-5px);
+    background-color: #00FF00;
+    color:white;
+    background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
+}
+footer{
+    text-align:center;
+    margin-top:20px;
+    padding:10px;
+    background: color #32cd32;;
+    color:white;
+    border-top:5px solid ;
+
+}
+.con{
+    background-color:#1a1a1a;
+    color:#ffffff;
+    margin:10px 0;
+    padding:20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.con:hover{
+    background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
+}
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    margin:0 auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+    background:black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width:80%;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+  
+}
+
+@keyframes gradientAnimation{
+    0%{
+        background-position:0% 50%;
+}
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes aboutAnimation{
+    0%{
+        background-position:0% 50%;
+}
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.word{
+    
+    text-align: center;
+    box-sizing: border-box;
+    margin:0 auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    color:white;
+    background:black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width:30%;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.skill{background-color:#1a1a1a;
+    color:#ffffff;
+    margin:10px 0;
+    padding:20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.skill:hover{
+    background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
+}
+.education{
+    background-color:#1a1a1a;
+    color:#ffffff;
+    margin:10px 0;
+    padding:20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.education:hover{
+
+background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
+}
+.hobbies{
+    background-color:#1a1a1a;
+    color:#ffffff;
+    margin:10px 0;
+    padding:20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.hobbies:hover{
+    background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
+    
+   
+}

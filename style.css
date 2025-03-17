@@ -40,7 +40,11 @@ header{
    transition:all 0.4s ease;
    
 }
-
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
 nav a{
     text-align: center;
     box-sizing: border-box;
@@ -192,4 +196,26 @@ background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
     background:linear-gradient(45deg,#00cc00,#004d00,#003300,#000000);
     
    
+}
+@media (max-width:768px){
+    nav{
+        flex-direction:column;
+        gap:10px;
+    }
+    h1{
+        font-size:2rem;
+    }
+    #projects div{
+        margin-bottom:15px;
+    }
+    section{
+        padding:20px 15px;
+    }
+}
+@media (min-width:769px){
+    #projects{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:20px;
+    }
 }
